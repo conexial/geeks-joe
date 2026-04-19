@@ -1,0 +1,128 @@
+
+body{
+    color: #0c0b0b;
+    margin: auto;
+    padding: 0;
+    background-color: #eaedf1;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #4caf50;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px 0;
+}
+
+header a{
+    text-decoration: none;
+    color: inherit;
+
+}
+header h1{
+    font-size: 40px;
+    margin: auto
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #0b0808;
+    padding: 8px;
+
+}
+
+nav a{
+    color: rgb(8, 26, 217);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+
+}
+.content-box{
+  max-width: 700px;
+  margin: auto;
+  padding: 10px;
+  background: #e0d1d1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #111113;
+  text-align: center;
+}
+.content-box p{
+    font-size: 18px;
+    color: #0a0909;
+    margin-bottom: 8px;
+}
+
+h2{
+    color: #180ae7;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.schedule{
+  width: auto;
+  border-collapse: collapse;
+  margin-top: 10px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.schedule td{
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+    
+}
+.schedule th{
+    background-color: #0f1510;
+    color: white;
+    font-size: 18px;
+}
+.li{
+    margin: 10px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+.contact-box{
+    max-width: 700px;
+    margin: auto;
+    padding: 8px;
+    background-color: #0d0c0c0c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #cfc8c800;
+    border: 1px solid #d6d6de;
+
+}
+.contact-box label{
+    font-size: 18px;
+    color: #2c2a2a;
+    text-align: center;
+}
+
+.contact-box input[type="text"],
+.contact-box input[type="email"],
+.contact-box textarea
+{
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+    border: 1px  #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+footer{
+    background-color: #0b0808;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin-top: 10px;
+}
