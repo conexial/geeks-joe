@@ -1,0 +1,22 @@
+const header = document.querySelector("header");
+header.style.background = "blue";
+const h1 = document.querySelector("h1");
+const headerParagraph = document.querySelector("#header-p");
+
+
+const button = document.querySelector("#submit-button");
+let fullName;
+let email;
+let message;
+button.addEventListener('click', (event) => {
+    //prevent from refleshing
+    event.preventDefault();
+    // retrieve the values from the form
+     fullName =document.querySelector("#full-name").value;
+     email =document.querySelector("#email").value;
+     message = document.querySelector("#message").value; 
+    
+    h1. textContent = fullName;
+    headerParagraph.textContent = message;
+});
+
